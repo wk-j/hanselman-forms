@@ -10,6 +10,7 @@ namespace Hanselman.Portable
     public class HomeViewModel : BaseViewModel
     {
         public ObservableCollection<HomeMenuItem> MenuItems { get; set; }
+
         public HomeViewModel()
         {
             CanLoadMore = true;
@@ -58,6 +59,13 @@ namespace Hanselman.Portable
                 MenuType = MenuType.DeveloperLife,
                 Icon = "tdl.png"
             });
+
+			MenuItems.Add (new HomeMenuItem {
+				Id = 6,
+				Title = "This is Jw's Life",
+				MenuType = MenuType.Jannine,
+				Icon = "hm.png"
+			});
         }
 
     }

@@ -27,7 +27,7 @@ namespace Hanselman.Portable.Views
                 if (listView.SelectedItem == null)
                     return;
                 var tweet = listView.SelectedItem as Tweet;
-                this.Navigation.PushAsync(new WebsiteView("http://m.twitter.com/shanselman/status/" + tweet.StatusID, tweet.Date));
+                this.Navigation.PushAsync(new WebsiteView("http://m.twitter.com/janninamusic/status/" + tweet.StatusID, tweet.Date));
                 listView.SelectedItem = null;
             };
         }

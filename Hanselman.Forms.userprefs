@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Hanselman.iOS/Hanselman.iOS.csproj">
   <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.ItemProperties.Hanselman.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DBED7CB4-E7C8-417B-8CE0-D58007B6454C" />
+  <MonoDevelop.Ide.ItemProperties.Hanselman.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E4C15E50-9AC7-467B-B82C-B89426188191" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

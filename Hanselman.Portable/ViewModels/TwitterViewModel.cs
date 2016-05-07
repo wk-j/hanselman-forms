@@ -1,9 +1,9 @@
 ﻿using System;
 using Xamarin.Forms;
 using System.Collections.ObjectModel;
-using LinqToTwitter;
 using System.Threading.Tasks;
 using System.Linq;
+using LinqToTwitter;
 
 namespace Hanselman.Portable
 {
@@ -60,11 +60,12 @@ namespace Hanselman.Portable
                 await auth.AuthorizeAsync();
 
                 var twitterContext = new TwitterContext(auth);
+				var jannineMusic = "janninemusic";
 
                 var queryResponse = await
                   (from tweet in twitterContext.Status
                    where tweet.Type == StatusType.User &&
-                     tweet.ScreenName == "shanselman" &&
+					tweet.ScreenName == jannineMusic &&
                      tweet.Count == 100 &&
                      tweet.IncludeRetweets == true &&
                      tweet.ExcludeReplies == true
@@ -80,7 +81,7 @@ namespace Hanselman.Portable
                        CurrentUserRetweet = tweet.CurrentUserRetweet,
                        CreatedAt = tweet.CreatedAt,
                        Image = tweet.RetweetedStatus != null && tweet.RetweetedStatus.User != null ?
-                                      tweet.RetweetedStatus.User.ProfileImageUrl.Replace("http://", "https://") : (tweet.User.ScreenNameResponse == "shanselman" ? "scott159.png" : tweet.User.ProfileImageUrl.Replace("http://", "https://"))
+						            tweet.RetweetedStatus.User.ProfileImageUrl.Replace("http://", "https://") : (tweet.User.ScreenNameResponse == jannineMusic ? "scott159.png" : tweet.User.ProfileImageUrl.Replace("http://", "https://"))
                    }).ToList();
                 foreach (var tweet in tweets)
                 {

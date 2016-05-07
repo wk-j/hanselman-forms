@@ -33,26 +33,26 @@
                             Grid.Column="1"
                             Grid.Row="1"
                             HorizontalOptions="Start"
-                            VerticalOptions="End"
-                            Source="scott159.png"
+                            VerticalOptions="Start"
+                            Source="jannine.png"
                             WidthRequest="75" HeightRequest="75"/>
                         <Label 
                             Grid.Column="1"
                             Grid.Row="2"
-                            Text="Hanselman.Forms"
+                            Text="Jannine.Forms"
                             Style="{DynamicResource SubtitleStyle}"/>
                     </Grid>
                 </ListView.Header>
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid Padding="20">
+                            <Grid Padding="10">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="Auto"/>
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
-                                <Image Source="{Binding Icon}" HeightRequest="25" WidthRequest="25"/>
-                                <Label Grid.Column="1" Text="{Binding Title}" FontSize="24"/>
+                                <Image Source="{Binding Icon}" HeightRequest="10" WidthRequest="10"/>
+                                <Label Grid.Column="1" Text="{Binding Title}" FontSize="10"/>
                             </Grid>
                         </ViewCell>
                     </DataTemplate>

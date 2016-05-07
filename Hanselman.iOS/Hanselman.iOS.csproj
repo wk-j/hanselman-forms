@@ -201,6 +201,8 @@
     <BundleResource Include="Resources\twitternav%402x.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>
+    <BundleResource Include="Resources\away.png" />
+    <BundleResource Include="Resources\jannine.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

@@ -3,16 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:Hanselman.Portable.Helpers;assembly=Hanselman.Portable"
             x:Class="Hanselman.Portable.Views.AboutPage"
-             Title="Scott Hanselman">
+             Title="Jannine Weigel">
   <ScrollView>
     <StackLayout Orientation="Vertical" Spacing="10">
-      <Image Aspect="AspectFill" Source="scott.png"/>
+      <Image Aspect="AspectFill" Source="away.png"/>
       <StackLayout Spacing="10" 
                    Padding="10" 
                    VerticalOptions="FillAndExpand">
-
         <Label
-               Text="My name is Scott Hanselman. I'm a programmer, teacher, and speaker. I work out of my home office in Portland, Oregon for the Web Platform Team at Microsoft, but this blog, its content and opinions are my own. I blog about technology, culture, gadgets, diversity, code, the web, where we're going and where we've been. I'm excited about community, social equity, media, entrepreneurship and above all, the open web."
+			   FontSize="10"
+               Text="Weigel started working as a model after moving to Bangkok in 2010. The next year, she turned her attention to singing. Following three months of training, she entered a national televised singing contest for children, called Singing Kids, and won third place.[3] From there, she became an artist trainee at GMM Grammy in October 2012 before becoming a full artist under it.[2]
+In 2012, during her trainee period, she appeared in the music video of Getsunova's 'Klai Khae Nai Khue Klai' (ไกลแค่ไหนคือใกล้; 'How Much Further Is It Till I Could Be Near You?'), which brought her to fame.[2] In 2013, she started her YouTube channel where she publishes, amongst other things, her covers of popular songs. Many of the covers went viral and gained many million views.[1]
+In 2015, Weigel released her first single, 'Chak Din Chak Ngo', followed by a number of OST songs.[2] In the same year, she was given the main roles in the television series Banlang Mek and the film Senior.[2][5] In 2016, she issued her second single, 'Away'.[6]"
                LineBreakMode="WordWrap"/>
 
         <StackLayout Orientation="Horizontal"
@@ -23,10 +25,7 @@
           <Image x:Name="facebook" Source="facebook.png"/>
           <Image x:Name="instagram" Source="instagram.png"/>
         </StackLayout>
-        
       </StackLayout>
-    
     </StackLayout>
-
   </ScrollView>
 </ContentPage>
