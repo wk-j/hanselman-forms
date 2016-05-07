@@ -1,9 +1,10 @@
-﻿<Properties StartupItem="Hanselman.Android/Hanselman.Android.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
+﻿<Properties StartupItem="Hanselman.iOS/Hanselman.iOS.csproj">
   <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.Hanselman.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DBED7CB4-E7C8-417B-8CE0-D58007B6454C" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Hanselman.Android AndroidDesignerPreferredDevice="Nexus 4" />
+  <MonoDevelop.Ide.ItemProperties.Hanselman.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 10 (KitKat)" />
 </Properties>
