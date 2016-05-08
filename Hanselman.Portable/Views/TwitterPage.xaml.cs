@@ -18,9 +18,7 @@ namespace Hanselman.Portable.Views
         public TwitterPage()
         {
             InitializeComponent();
-
             BindingContext = new TwitterViewModel();
-
 
             listView.ItemTapped += (sender, args) =>
             {
@@ -31,7 +29,6 @@ namespace Hanselman.Portable.Views
                 listView.SelectedItem = null;
             };
         }
-
 
         protected override void OnAppearing()
         {

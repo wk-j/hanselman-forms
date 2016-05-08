@@ -60,7 +60,7 @@ namespace Hanselman.Portable
                 await auth.AuthorizeAsync();
 
                 var twitterContext = new TwitterContext(auth);
-				var jannineMusic = "janninemusic";
+				var jannineMusic = "JanninaWMusic";
 
                 var queryResponse = await
                   (from tweet in twitterContext.Status
@@ -81,7 +81,7 @@ namespace Hanselman.Portable
                        CurrentUserRetweet = tweet.CurrentUserRetweet,
                        CreatedAt = tweet.CreatedAt,
                        Image = tweet.RetweetedStatus != null && tweet.RetweetedStatus.User != null ?
-						            tweet.RetweetedStatus.User.ProfileImageUrl.Replace("http://", "https://") : (tweet.User.ScreenNameResponse == jannineMusic ? "scott159.png" : tweet.User.ProfileImageUrl.Replace("http://", "https://"))
+						            tweet.RetweetedStatus.User.ProfileImageUrl.Replace("http://", "https://") : (tweet.User.ScreenNameResponse == jannineMusic ? "jannine.png" : tweet.User.ProfileImageUrl.Replace("http://", "https://"))
                    }).ToList();
                 foreach (var tweet in tweets)
                 {

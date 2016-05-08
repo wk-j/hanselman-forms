@@ -1,6 +1,14 @@
 ﻿<Properties StartupItem="Hanselman.iOS/Hanselman.iOS.csproj">
-  <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.ItemProperties.Hanselman.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E4C15E50-9AC7-467B-B82C-B89426188191" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hanselman.iOS/Main.cs">
+    <Files>
+      <File FileName="Hanselman.Portable/Views/WebsiteView.cs" Line="12" Column="13" />
+      <File FileName="Hanselman.Portable/Views/TwitterPage.xaml" Line="11" Column="43" />
+      <File FileName="Hanselman.Portable/Views/TwitterPage.xaml.cs" Line="21" Column="50" />
+      <File FileName="Hanselman.Portable/ViewModels/TwitterViewModel.cs" Line="84" Column="152" />
+      <File FileName="Hanselman.iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Hanselman.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C9A69641-F419-4B7C-96F0-48EB5846E89B" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
